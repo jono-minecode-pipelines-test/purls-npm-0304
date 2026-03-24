@@ -1,70 +1,49 @@
 {
-    "name": "-llscw-react-cli",
+    "name": "001uscurrency_converter",
     "version": "1.1.0",
-    "description": "llscw cli",
-    "private": false,
     "main": "index.js",
-    "bin": {
-        "llscw": "bin/index.js"
-    },
+    "type": "module",
     "scripts": {
-        "llscw": "llscw"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/lqt0327/-llscw-react-cli.git"
-    },
-    "keywords": [],
     "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/lqt0327/-llscw-react-cli/issues"
-    },
-    "homepage": "https://github.com/lqt0327/-llscw-react-cli#readme",
     "dependencies": {
-        "axios": "^0.26.0",
-        "chalk": "^4.1.2",
-        "commander": "^8.1.0",
-        "download-git-repo": "^3.0.2",
-        "figlet": "^1.5.0",
-        "fs-extra": "^10.0.0",
-        "inquirer": "^8.2.1",
-        "ora": "^5.3.0",
-        "read-pkg": "^5.2.0",
-        "shelljs": "^0.8.5"
+        "inquirer": "^9.2.17"
     },
-    "gitHead": "67de4ad75c2e614db03f04bf700069de6115eaa3",
-    "_id": "-llscw-react-cli@1.1.0",
-    "_nodeVersion": "14.17.3",
-    "_npmVersion": "6.14.13",
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7"
+    },
+    "_id": "001uscurrency_converter@1.1.0",
+    "_nodeVersion": "20.11.1",
+    "_npmVersion": "10.2.4",
     "dist": {
-        "integrity": "sha512-kbQcoGFXjk5aIEjOeNDn/vxjpPluNVPhplBtFDJlqrze0ck8Y0GXRuOGw3DWwNAisc0+A/Mr0PgyH0KKoHgDYQ==",
-        "shasum": "4bae72a112100811b0e69846a8a3d51e0cda4c75",
-        "tarball": "https://registry.npmjs.org/-llscw-react-cli/-/-llscw-react-cli-1.1.0.tgz",
-        "fileCount": 23,
-        "unpackedSize": 311068,
-        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiKKumACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrT7Q//WrwGg+FugztU71w/KFeYIncT8aUmtR/F+gJQj80lPphorsQ9\r\n3ZpJ5Ub46ytcVVhfTuQT8ckRsjyy88mKoqLrYfwcs0WxFsWhZkRhhabL5HEr\r\n1i9Mue572vkWaUIgQHydPqfn1SUyHEFvvJvnSnOmDVg5GF0U8EbPvmFNEHrF\r\niFXz2UNPLPtEjMO8lUbpF7AAMVTrA0/H6qFd90radorb0KDsCiQrF46//pxe\r\nZ2ViuyzkMJSKOOnjreNAP0UIPoc3gSNu1pPd0KUcaHY3r4SqIBsQnnBVd0o1\r\n3EpKyrOZt5SqQ/idhBjsstgzFqWuSJkb8lydyIVVtMXuWPqaO97N4UEWeg+F\r\nfJEpnMUKOU+vSPd/XTMFwOUvR1BsZh7Y3hnn46R18+Wk6aNuiNGyPQXJu/3u\r\nRhDZbr/iYwGr0TbPfOBruOxByoSxuNrhutQSrEBuZ9x8IYsCPAO1ROffd6tk\r\nhv/UfHtCQEENsIoA9lMPRQ0Ap9pGwNik7LPk7PnZhJy5VUAemGOsWwtI5gzd\r\nhOHvHXumoyJ9SkrZQpguujjoyWEuA+VjMWB96bfANyljH4c0iACp2nmoW5vi\r\nerPAhTztGECv5g5/JmiO1hGbRZY67iwo+fmD5K0c5kQy3BrfGB8TKTp5SdIy\r\nhSP8ZO1zsnWPrG1LVCsM188iz5N0l/2262g=\r\n=eYme\r\n-----END PGP SIGNATURE-----\r\n",
+        "integrity": "sha512-ToaonSpwEnjoBFYYqtYlpmcri6bjzOVS60uTHl7O/MiHFt+qP36Oy5me4s5J3ONKSrdKTBOdI7EzRW0NQoWqlg==",
+        "shasum": "a87a8c669c60cc87ff5947748eeb099b672ca7bd",
+        "tarball": "https://registry.npmjs.org/001uscurrency_converter/-/001uscurrency_converter-1.1.0.tgz",
+        "fileCount": 4,
+        "unpackedSize": 15639,
         "signatures": [
             {
                 "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
-                "sig": "MEUCIBcoUpoOQvMkESCLtn6LDh6XMrobpCA1T1dU+TNRyG1pAiEAqxWmmpQuTZFPJZkmiSeO/3/8Q6EBaC8EttkY+yCwwiE="
+                "sig": "MEUCIQDW6RAbCILjb8+nWgO9Ch75eMN7qTs19BjcnWjsDB/zSgIgSB9v9Xh4+WUidj7KJvrADdBgDRO8t5LhtrorB6OWPmg="
             }
         ]
     },
     "_npmUser": {
-        "name": "llscw",
-        "email": "1485215848@qq.com"
+        "name": "uroobasiddiqui",
+        "email": "Urooba.sidd@gmail.com"
     },
     "directories": {},
     "maintainers": [
         {
-            "name": "llscw",
-            "email": "1485215848@qq.com"
+            "name": "uroobasiddiqui",
+            "email": "Urooba.sidd@gmail.com"
         }
     ],
     "_npmOperationalInternal": {
         "host": "s3://npm-registry-packages",
-        "tmp": "tmp/-llscw-react-cli_1.1.0_1646832550541_0.4751380632716664"
+        "tmp": "tmp/001uscurrency_converter_1.1.0_1712594596056_0.9674012408466897"
     },
     "_hasShrinkwrap": false
 }

@@ -1,70 +1,49 @@
 {
-    "name": "-llscw-react-cli",
+    "name": "001uscurrency_converter",
     "version": "1.0.0",
-    "description": "llscw cli",
-    "private": false,
     "main": "index.js",
-    "bin": {
-        "llscw": "bin/index.js"
-    },
+    "type": "module",
     "scripts": {
-        "llscw": "llscw"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/lqt0327/-llscw-react-cli.git"
-    },
-    "keywords": [],
     "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/lqt0327/-llscw-react-cli/issues"
-    },
-    "homepage": "https://github.com/lqt0327/-llscw-react-cli#readme",
     "dependencies": {
-        "axios": "^0.21.1",
-        "chalk": "^4.1.2",
-        "commander": "^8.1.0",
-        "download-git-repo": "^3.0.2",
-        "figlet": "^1.5.0",
-        "fs-extra": "^10.0.0",
-        "inquirer": "^8.1.2",
-        "ora": "^5.3.0",
-        "read-pkg": "^5.2.0",
-        "shelljs": "^0.8.4"
+        "inquirer": "^9.2.17"
     },
-    "gitHead": "3051a5ceedd05e4098330b97eb4689c0ea9cf9f8",
-    "_id": "-llscw-react-cli@1.0.0",
-    "_nodeVersion": "14.17.0",
-    "_npmVersion": "6.14.13",
-    "_npmUser": {
-        "name": "llscw",
-        "email": "1485215848@qq.com"
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7"
     },
+    "_id": "001uscurrency_converter@1.0.0",
+    "_nodeVersion": "20.11.1",
+    "_npmVersion": "10.2.4",
     "dist": {
-        "integrity": "sha512-d+xRDjSSjCrrChb+BuqwURfsQvjUmzO7/Yt5ktm/2L3YlVzAExyeZfeMlGXOENpg8w6V5fzdMklQ9WBzmyTedQ==",
-        "shasum": "49f6921309690ac6e54c0568c207a845223181f4",
-        "tarball": "https://registry.npmjs.org/-llscw-react-cli/-/-llscw-react-cli-1.0.0.tgz",
-        "fileCount": 7,
-        "unpackedSize": 8709,
-        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhMX+BCRA9TVsSAnZWagAAY3MQAJBzKmUagYyGiepKDc+g\neZk2KAvK/CBRuSh6pCXXZ/qRuv/JT8nOm6qh+ploDjUw/kk0AxKUUSJy9Ods\nHW21dKispxmgA/fj8mcJq8vj0gjdNW4kPq2hDixqgV0vfjJKcgkkEL/1A/zy\nUWvzqo0hFIqJ2JJh5S8dAJlCVMfqjZ6ij1QR7XEkNMmvOJjI8ZiGGQUb4tEK\neGcg4QD3uMWDFnsomr6ZhvxPPtWdKSdcWPGzVpXPUYOHahvuvqGxLnZoJrPw\nJtXhAEwlQoEpwACMikeApib44/CsUw35TAe9SGLm9TweANHgqsDCoeJO8cLj\nTlFQtixj5j2hPi20NSpLNP+4FsD3TtlqGuCiolr1btllb46gPFvd/FzSQb4p\nuB1wodYxshe0sNElvAKqiQEjEbbfuclwh7kquCB0Z4135vHosqpTryYZGOQw\n14Cdmn4dzzo9BRsGYBqRQHMWGkckea9G92jOmlwTxWDTGbhIK70mLOSoV/EP\nV3cDko5U1Cb8Rcc79OqDhEowbtyU0W5yBf+XcZg1c90DzH2tj2G2+TkLSe4m\n2NO2J8ped+PPZ1AjJVmo2zfHKzSKnIoUnls4JDjt+g39td8BKdw2V4jIKGRX\nARp4C2w3q2Dd9+K6kOgm2Mzcrflegpw7sUShd96zlJKLYeW/rzZ8TkiHTgnL\nQJNJ\r\n=hT+c\r\n-----END PGP SIGNATURE-----\r\n",
+        "integrity": "sha512-ONRxBhTfdVOjGHZPSmUDJ6yZ5TOrQGLrUfZLFgOVndndpMdi3bvTbFRvu4af+k+0B21XrZ/pI2mDakbxf/Gqqg==",
+        "shasum": "08ad702e2874b2f8b52bb2e5a1aa5ee0db91d56c",
+        "tarball": "https://registry.npmjs.org/001uscurrency_converter/-/001uscurrency_converter-1.0.0.tgz",
+        "fileCount": 4,
+        "unpackedSize": 15639,
         "signatures": [
             {
                 "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
-                "sig": "MEYCIQCa/hCnRNX1rtPLORFmc3EvEbrzNLH5BgbDCmMe3tSFfwIhAK3E9kYfGNZ5H/SHLX5svmnNP38T5wPpGn+aWm6g8Roj"
+                "sig": "MEUCIQDV5r61y2Ce+yLWOuc4wCnrHEGAnl5eLq2v6HhUru1hRQIgaO0uw8nLrSbifhzB1P3c1mBz0eCCwq2QLAytLi1pO4c="
             }
         ]
+    },
+    "_npmUser": {
+        "name": "uroobasiddiqui",
+        "email": "Urooba.sidd@gmail.com"
     },
     "directories": {},
     "maintainers": [
         {
-            "name": "llscw",
-            "email": "1485215848@qq.com"
+            "name": "uroobasiddiqui",
+            "email": "Urooba.sidd@gmail.com"
         }
     ],
     "_npmOperationalInternal": {
         "host": "s3://npm-registry-packages",
-        "tmp": "tmp/-llscw-react-cli_1.0.0_1630633856980_0.9835215104264057"
+        "tmp": "tmp/001uscurrency_converter_1.0.0_1712594290966_0.32998861741717667"
     },
     "_hasShrinkwrap": false
 }
