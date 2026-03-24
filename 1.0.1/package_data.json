@@ -1,0 +1,70 @@
+{
+    "name": "-llscw-react-cli",
+    "version": "1.0.1",
+    "description": "llscw cli",
+    "private": false,
+    "main": "index.js",
+    "bin": {
+        "llscw": "bin/index.js"
+    },
+    "scripts": {
+        "llscw": "llscw"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lqt0327/-llscw-react-cli.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lqt0327/-llscw-react-cli/issues"
+    },
+    "homepage": "https://github.com/lqt0327/-llscw-react-cli#readme",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "chalk": "^4.1.2",
+        "commander": "^8.1.0",
+        "download-git-repo": "^3.0.2",
+        "figlet": "^1.5.0",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^8.1.2",
+        "ora": "^5.3.0",
+        "read-pkg": "^5.2.0",
+        "shelljs": "^0.8.4"
+    },
+    "gitHead": "3051a5ceedd05e4098330b97eb4689c0ea9cf9f8",
+    "_id": "-llscw-react-cli@1.0.1",
+    "_nodeVersion": "14.17.5",
+    "_npmVersion": "6.14.14",
+    "_npmUser": {
+        "name": "llscw",
+        "email": "1485215848@qq.com"
+    },
+    "dist": {
+        "integrity": "sha512-Iz2hwo4O1Dnm1foO0G8pKWG87ZBC2OpgAOS/XT9HDkwcfBcAp/ATpdKULo+rZgjf2VwtpUFWTbx05nKdCeF1Tg==",
+        "shasum": "fb66a8f4bfe843efb0e5eb470edf50cb983c5052",
+        "tarball": "https://registry.npmjs.org/-llscw-react-cli/-/-llscw-react-cli-1.0.1.tgz",
+        "fileCount": 7,
+        "unpackedSize": 8712,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJh1vfRCRA9TVsSAnZWagAACSAP/0Qs23U07tg1Kroe9IRv\nMIKFLQIQnuoJOeYLow8m8VO5RiHjuwqG4Hl3xHTCs66QwRJbKGLzNYIaOzsR\nCdKO8Q5VqRmIAGy2edQtbedFPJjWpdXnA0uIRLQ5/g1jB3PU09+eQPOUBqhj\ndv2J48yuPhYC+yRyns+enuXFoEUQG8oAl92LrB8GTlPlqYEmBIjDGuA/XtM4\nH6DxoqCLrnffH7VFwroTOVwwx0V8j5tP6ZyBvHyZdAcqtjJUKJEgXGm+/uuo\n9U1P/T4GY2U9vlBZfFZZ9fuhQLXt7G9CSpGHk1NyGg6vCxz+FfI4q4NmPiql\n3s7uU60EubK+tVKwaMzI5IdhxtBcQuXX7vfyBAzSyvA+CiHuMoFV3tC3PIH8\nXrn2UgR4YplY62bxzU09bTYXVzLN9hfNPM65227BhsTiR/6bWc50ClgHlLxY\nstl8zr47bbwNnmY1cq8tmtQ1T3ZgHFa2JNuE6+xp9gw79v31S+UUgZkoCQ5a\nxPoVJ3o1G2/4eX3YbjayGMybm4hyllpR2xpXNEO0nS4c1ipeS8E3N6/0rqoU\nPb3mCuxjAMJ43usqgqvW8XXTDMc0rGVbgvYxM+l3j1nLD5JmUEy0AZcPMIBc\n1QAvy1qBX2LgcOCIf4dhTX9dT+F6RQGbbDzcekwxm9MqxaLCq7Zzfbitchqf\nN+qn\r\n=Z9nc\r\n-----END PGP SIGNATURE-----\r\n",
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEYCIQDbPhiGQo2soYy4YGUsZwNqMa+kDZGhDK+jfKA2E0KWgQIhAINn3cXVvHeFCYl4xrbUuyVR2efEp+jQJDKaPdHzTJje"
+            }
+        ]
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "llscw",
+            "email": "1485215848@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-llscw-react-cli_1.0.1_1631513487201_0.3148120175337066"
+    },
+    "_hasShrinkwrap": false
+}

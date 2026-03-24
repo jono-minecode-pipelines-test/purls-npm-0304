@@ -1,0 +1,71 @@
+{
+    "name": "-llscw-react-cli",
+    "version": "1.0.1-beta3",
+    "description": "llscw cli",
+    "private": false,
+    "main": "index.js",
+    "bin": {
+        "llscw": "bin/index.js"
+    },
+    "scripts": {
+        "llscw": "llscw"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lqt0327/-llscw-react-cli.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lqt0327/-llscw-react-cli/issues"
+    },
+    "homepage": "https://github.com/lqt0327/-llscw-react-cli#readme",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "chalk": "^4.1.2",
+        "commander": "^8.1.0",
+        "download-git-repo": "^3.0.2",
+        "figlet": "^1.5.0",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^8.1.2",
+        "ora": "^5.3.0",
+        "read-pkg": "^5.2.0",
+        "shelljs": "^0.8.4"
+    },
+    "readme": "# -llscw-react-cli",
+    "readmeFilename": "README.md",
+    "gitHead": "3051a5ceedd05e4098330b97eb4689c0ea9cf9f8",
+    "_id": "-llscw-react-cli@1.0.1-beta3",
+    "_nodeVersion": "14.17.0",
+    "_npmVersion": "6.14.13",
+    "_npmUser": {
+        "name": "llscw",
+        "email": "1485215848@qq.com"
+    },
+    "dist": {
+        "integrity": "sha512-6Smq9ls7sPabwHOZd4WsJOEJ1MBGJeGz6tSTwAkjNhomuX8UDE+Y5RLJaEuc7aegGGFp5FUFhBsNMjo7fnsrIA==",
+        "shasum": "815b9ecff8a5684c35d8274a5f73f78800ff6f81",
+        "tarball": "https://registry.npmjs.org/-llscw-react-cli/-/-llscw-react-cli-1.0.1-beta3.tgz",
+        "fileCount": 9,
+        "unpackedSize": 10383,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIEsiQ1CI6j2PybYMOCIXD4NeMpN65SG2si3zxcx/uyXQAiEAp0DkbJi1O5biixleD6+e/MtRG2MtiStfQxMs50VGIuY="
+            }
+        ]
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "llscw",
+            "email": "1485215848@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-llscw-react-cli_1.0.1-beta3_1633942406756_0.0317251473381337"
+    },
+    "_hasShrinkwrap": false
+}
