@@ -1,0 +1,74 @@
+{
+    "name": "-llscw-react-cli",
+    "version": "1.0.1-beta4",
+    "description": "llscw cli",
+    "private": false,
+    "main": "index.js",
+    "bin": {
+        "llscw": "bin/index.js"
+    },
+    "scripts": {
+        "llscw": "llscw"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lqt0327/-llscw-react-cli.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lqt0327/-llscw-react-cli/issues"
+    },
+    "homepage": "https://github.com/lqt0327/-llscw-react-cli#readme",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "chalk": "^4.1.2",
+        "commander": "^8.1.0",
+        "download-git-repo": "^3.0.2",
+        "figlet": "^1.5.0",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^8.2.1",
+        "ora": "^5.3.0",
+        "read-pkg": "^5.2.0",
+        "shelljs": "^0.8.5",
+        "webpack-merge": "^5.8.0"
+    },
+    "devDependencies": {},
+    "readme": "# -llscw-react-cli\n\n```\nllscw create [\u9879\u76ee\u540d\u79f0]\n```",
+    "readmeFilename": "README.md",
+    "gitHead": "e2b08f1e01e91390d3cda5fd226d97fd8ca3af23",
+    "_id": "-llscw-react-cli@1.0.1-beta4",
+    "_nodeVersion": "14.17.0",
+    "_npmVersion": "6.14.13",
+    "_npmUser": {
+        "name": "llscw",
+        "email": "1485215848@qq.com"
+    },
+    "dist": {
+        "integrity": "sha512-FT3QP8t8f+UzUQQBoahvxGeW3rEpI8udt629tgxPjUVSVVLVapPO+Fgdp6lrC/sxediN9pAWptLm+218fBiqrg==",
+        "shasum": "50a6c5d51749ea124b5a0a597c9ae7141b71186f",
+        "tarball": "https://registry.npmjs.org/-llscw-react-cli/-/-llscw-react-cli-1.0.1-beta4.tgz",
+        "fileCount": 27,
+        "unpackedSize": 255281,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEQCICtMd+2TIoFKWqBTy+Ypdtd1YDbufLvz+q7nlt7tZTVEAiApNeVQR2fFshONKxf6aC5KicgEa/nv6XBVinH4MFOcug=="
+            }
+        ],
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiU9J6ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmrzhw//TGXNJoWUU4jUW8Xc5+yxj2hNICaXXxPaIbxd1fWcWWLxNwzn\r\nU5adGa4smB2bKfupBkeEndXZak3uW5PT2k5ejOJOi0w2G5494m6xZp+0cMRE\r\nQRxhBteNSKEx904Q/hnFE24EqDY1vC9MZBeXR4vEC0z62WYSJ25X5UrYsCwl\r\nUjq+2EDG+0zNTZF67qFOSf9mhmDlbOiSBo/ritCm8aKdrs+dMz+MPyIEVlhw\r\nc540z79FUN+UxvMyqVCNp24xC3/YE8/Qip9M6tf4HqZ1JG+6oFli1XsLXhJR\r\noAgMySepzTpNeSAiSn+XIMFOniOrMYiKOAhi8ROzMwP6MFS9Yp87WbZlu8+T\r\nucq/B4LLRwG+uhnYhFExTJm6CAC44UuTy2XTUu1muFXYB78ZfSofUL9odogc\r\n3JhP4xXY24yjegzt2581GMIBi0a1qlI7IiLT+aev/z8CTabB5khv5/I+ut6Q\r\ndXQ1Tiq3Xw0X9CBp0a2e7r3cw8XaxBGVAAGTKYKo8RYRFvA62DbRZhMEAvb+\r\nEOIrGOrJDkk3nGZ1c9j6LorpTM3o8UlPDKBkRriXwJ9m5yC/pikUuhmH59X7\r\ngEjZ5vrSsoqkGaIDAxW404rjYjwqW4aUfh4LX8XaNhm6VCbU+RllZ7UiZeoO\r\nSC+a2fzvClycF4IinPnnGuzv3szJWa69ZJc=\r\n=3xV1\r\n-----END PGP SIGNATURE-----\r\n"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "llscw",
+            "email": "1485215848@qq.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-llscw-react-cli_1.0.1-beta4_1649660538251_0.20082384929936192"
+    },
+    "_hasShrinkwrap": false
+}
